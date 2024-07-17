@@ -26,7 +26,7 @@ function addTwoNumbers(Number1, Number2){ //Parameters
 
 // addTwoNumbers(3, 5)
 // addTwoNumbers(3, "5")
-addTwoNumbers(3, null) //Arguments
+// addTwoNumbers(3, null) //Arguments
 
 // After return the code will not accepting any manipulation
 // const maaz = addTwoNumbers(3, 5)
@@ -39,12 +39,23 @@ addTwoNumbers(3, null) //Arguments
 
 // How Parameters are taken
 
-function addingNumbers(username = "sam"){ // for default value
-    if (!username) {
-        console.log("PLease try again");
-        return  //After return no more code will execute
+// function addingNumbers(username = "sam"){ // for default value
+//     if (!username) {
+//         console.log("PLease try again");
+//         return  //After return no more code will execute
+//     }
+//     return (`${username} Just Logged In`)
+// }
+
+// console.log(addingNumbers());
+
+
+
+function addingNumbers(username) {
+    if (username === undefined){
+        return `Please Enter User Name Now`
     }
-    return (`${username} Just Logged In`)
+    return `${username} is just Loggedin`
 }
 
-console.log(addingNumbers());
+console.log(addingNumbers("Maaz"))

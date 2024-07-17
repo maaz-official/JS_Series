@@ -1,6 +1,15 @@
 // Comparision
 
-console.log(2>1);
-console.log("a">2);
-console.log("12"<4);
-console.log("a"=a);
+// < > === != && ||
+
+console.log(3>"3");
+console.log("3"=="3");
+console.log("3">3);
+
+let value = 19
+
+let Rsesult  = (value<18) ? "To Young" : "Old age"
+
+console.log(Rsesult);
+
+console.log("a" < 3);

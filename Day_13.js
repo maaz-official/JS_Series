@@ -40,3 +40,11 @@ console.log(Object.entries(userName));
 
 
 console.log(Object.hasOwnProperty("job"));
+
+let maaz = {
+    name: "maaz",
+    class: "22",
+    rollno: "asd"
+}
+
+console.table(maaz);

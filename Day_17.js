@@ -20,9 +20,9 @@ Objects1({
 
 let Maaz = ["name", "rollno", "no"];
 
-function Array1(getArray){
-    return getArray[1]
-}
+// function Array1(getArray){
+//     return getArray[1]
+// }
 
 // console.log(Array1(Maaz));
-console.log(Array1(["maaz", "name"]));
+// console.log(Array1(["maaz", "name"]));

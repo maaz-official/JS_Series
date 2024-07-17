@@ -1,16 +1,27 @@
-// Primitive Data Type
+// Primitive Data Type (Stack )
 
 // String
-const Maaz = "Maaz"
+
+let Maaz = "This is maaz"
+
+console.log(typeof Maaz);
 
 // Number
-const maazId =  12
+
+const Number = 123
+console.log(Number);
+
 
 // BigInt 
-const BigInt = 12312312311455556n
+
+const Number2 = 12312312312312313n
 
 // Symbol
-const Id = Symbol("123")
+
+let id = Symbol("123")
+console.log(id);
 
 // Boolean
-const isLoggedIn = true
+
+let isLoggedIn = true;
+console.log(typeof isLoggedIn);

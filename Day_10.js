@@ -1,30 +1,27 @@
 // Array
 
-// const Computer = ["Compter", "Maaz"];
-
+// let Computer = ["Computer", "Labs", "Javascript"]
 // console.log(Computer);
 
-// Deep Copy
+// dEEP  Copy
 
+// let Computer = ["Computer", "Labs", "Javascript",{List: ["Java", "PYT"]}]
 
-// const Computer = ["Compter", {List: ["JS", "JAVA", "C++"]}];
+// let Computer2 = JSON.parse(JSON.stringify(Computer))
 
-// const Computer2 = JSON.parse(JSON.stringify(Computer))
-
-// Computer2[1].List = ["JS1", "JAVA2"]
-
+// Computer2[3].List = ["Maaz"]
 
 // console.log(Computer);
 // console.log(Computer2);
 
 // Shallow Copy
 
-const Computer = ["Hospital", {Ward: ["Cancer", "JAVA", "C++"]}];
+let Computer = ["Computer", "Labs", "Javascript",{List: ["Java", "PYT"]}]
 
-const Computer2 = Array.from(Computer);
+let Computer2 = Array.from(Computer)
 
-Computer2[1].Ward = ["Heart", "JAVA2"]
+Computer2[3].List = ["Maaz", "Lazzy Code"]
 
 
-console.log(Computer);
 console.log(Computer2);
+console.log(Computer);

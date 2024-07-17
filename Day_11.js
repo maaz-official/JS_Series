@@ -41,4 +41,4 @@ const score1 = 50
 const score2 = 60
 const score3 = 70
 
-console.log(Array.of(score1, score2, score3));
+// console.log(Array.of(score1, score2, score3));

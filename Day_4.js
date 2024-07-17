@@ -1,18 +1,17 @@
 // Variables
 
-// Let
+// var
 
-let Maaz = "Maaz"
+var Maaz = "Maaz"
 console.log(typeof Maaz);
 
-// Var
+// let
 
-var Maaz1 = "Maaz"
-console.log(typeof Maaz1);
+let Anything  = 123
+console.log(typeof Anything);
 
-// Const
+// const
 
-const Number = 32
+const Number = 321
+Number = 123
 console.log(Number);
-
-
